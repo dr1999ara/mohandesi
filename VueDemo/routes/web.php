@@ -14,9 +14,9 @@ use App\Http\Controllers\IndexController;
 |
 */
 
-// Route::get('/', function () {
-//         return ('welcome');
-//     });
+Route::get('/', function () {
+        return ('welcome');
+    });
     
     
 
@@ -25,14 +25,14 @@ use App\Http\Controllers\IndexController;
 // });
 
 
-Route::get('/vue', function () {
-    return view('vue');
-});
+// Route::get('/vue', function () {
+//     return view('vue');
+// });
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
