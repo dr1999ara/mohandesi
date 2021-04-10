@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خرید آنلاین قطعات رباتیک</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="fontaw/css/font-awesome.min.css"> -->
+    <link href="fontaw/css/all.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/all.css"> -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>
+    <!-- navbars -->
+    <section id="ext_menu-3">
+      <nav>
+          <div class="navbar navbar-dropdown pb-0 navbar-expand">
+              <div class="container-fluid  login-inner">    
+                  <ul class="navbar-nav">
+      
+                    <li class="nav-item">
+                          <span id="view_multi_currency" >      
+                              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                  <option value="FA">فا</option>
+                                  <option value="En">EN</option>
+                                  <option value="DUE">DU</option> 
+                              </select>
+                          </span>              
+                    </li>
+      
+                    <li class="nav-item">
+                      <span id="guest_user_div">
+                          <span class="m-2 login-sp"> | </span>
+          
+                          <span>
+                              <a href="login.html" class="m-2 login-sp header-ga ga-trackable">
+                                  ورود
+                              </a>
+                          </span>
+          
+                          <span class="login-sp"> | </span>
+          
+                          <span>
+                              <a href="reg.html" data-ga-label="Menu"  class="m-2 login-sp header-ga ga-trackable">
+                              ثبت نام
+                              </a>
+                          </span>            
+                      </span>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <span style="font-family: 'IRANSans';font-size: 13px;padding-right: 20px;color: #777;" class="hide-shop-slider">
+                          <i class="fas fa-phone-volume"></i>
+                          شماره پشتیبانی: ۰۹۱۳۳۳۳۳۳۳
+                      </span>          
+                    </li>             
+                  </ul>
+                
+              </div>        
+          </div>
+
+          <div class="navbar navbar-expand-lg p-0 navbar-light">
+              <div class="container">
+                  <div class="collapse navbar-collapse" id="navbarText">
+                      <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="#">          
+                              <i class="fa fa-shopping-cart" style="font-size:18px;" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="#">درباره ی ما</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="#">تماس با ما</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="#">خانه</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="#">بلاگ</a>
+                        </li>
+                      </ul>              
+                    </div>
+
+                <a class="me-auto  navbar-brand fs-2 ps-5" style="color: #00cdfe;" href="#">روبوفروشآنلاین</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+          </div>
+      </nav>
+  </section>
+
+  <!-- search -->
+  <section class="mbr-section mbr-after-navbar bg-dark">
+      <div class="container-fluid contuct-title-bg" >
+          <div class="container">
+              <div class="col-md-12 col-sm-12 col-xs-12 col-xl-8 m-auto ">
+                  <div class="row">
+                      <div class="product_search">
+                          <form  class=""  method="get" style="direction: ltr;">
+                              <div class="input-group flex-nowrap">
+                                  <span class="input-group-text" id="addon-wrapping"> <i class="fa fa-search fa-lg"></i></span>
+                                  <input type="search" class="form-control" style="direction: rtl;" placeholder="جست و جوی محصول.."
+                                  aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section> 
+
+  <!-- advertising -->
+  <section class="mbr-section mbr-after-navbar  my-4" style="padding-top: 0;padding-bottom:0">
+      <div class="container">    
+          <div class="col-md-12 col-xl-10 m-auto hide-mobile-device">
+              <div class="row">
+                  <div class="col-md-3 shop-product-top-img">
+                      <img src="https://storage.googleapis.com/sproboticworks/master/assets/images/marketing/shop/products/shipping-globally-v1.png" width="48"
+                          height="30"/>
+                      <span>
+                      ارسال سریع
+                  </span>
+                  </div>
+                  <div class="col-md-3 shop-product-top-img">
+                      <img src="https://storage.googleapis.com/sproboticworks/master/assets/images/marketing/shop/products/community-support-v1.png" width="35"
+                          height="30"/>
+                      <span>
+                      7 روز ضمانت بازگشت
+                  </span>
+                  </div>
+                  <div class="col-md-3 shop-product-top-img">
+                      <img src="https://storage.googleapis.com/sproboticworks/master/assets/images/marketing/shop/products/support-v1.png" width="35"
+                          height="30"/>
+                      <span>
+                    پشتیبانی 24 ساعته
+                  </span>
+                  </div>
+                  <div class="col-md-3 shop-product-top-img">
+                      <img src="https://storage.googleapis.com/sproboticworks/master/assets/images/marketing/shop/products/product-v1.png" width="35"
+                          height="30"/>
+                      <span>
+                    بیش از 400 نوع محصول
+                  </span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  </header>
+
+  <main>
+    <!-- dropdown category / carousel -->
+  <section class="mbr-section mbr-after-navbar mt-3 mb-5" style="padding-top: 0;padding-bottom:0">
+    <div class="container">    
+        <div class="col-md-12 col-xl-10 m-auto">
+            <div class="row">
+              <div class="col-md-3 px-3">
+                <div class=" w-100 rounded-3 rounded btn-secondary px-3 py-2 mb-1 ">                    
+                    دسته بندی محصولات                     
+                </div>
+                
+                  <div class=" btn-group dropend shadow w-100 btn-light mb-1 ">
+                    <button type="button" class="btn dropdown-toggle" 
+                    
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                        برد های توسعه 
+                    </button>
+                      <ul class="dropdown-menu text-end " style="padding: 12px;">
+                        <li class="">
+                          <a href="https://sproboticworks.com/shop/products/Robot Platform">
+                              آردوینو
+                          </a>
+                        </li>
+
+                        <li class="has-children" style="position:relative">
+                          <a href="https://sproboticworks.com/shop/products/Roboticscompetitionparts">
+                              رزبری پای
+                          </a>
+                        </li>
+                      </ul>
+                  </div>
+
+                  <div class="btn-group dropend shadow w-100 btn-light mb-1  ">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        برد های توسعه 
+                    </button>
+                      <ul class="dropdown-menu text-end " style="padding: 12px;">
+                        <li class="">
+                          <a href="https://sproboticworks.com/shop/products/Robot Platform">
+                              آردوینو
+                          </a>
+                        </li>
+
+                        <li class="has-children" style="position:relative">
+                          <a href="https://sproboticworks.com/shop/products/Roboticscompetitionparts">
+                              رزبری پای
+                          </a>
+                        </li>
+                      </ul>
+                  </div>
+                  
+                  <div class="btn-group dropend shadow w-100  btn-light mb-1 ">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        برد های توسعه 
+                    </button>
+                      <ul class="dropdown-menu text-end " style="padding: 12px;">
+                        <li class="">
+                          <a href="https://sproboticworks.com/shop/products/Robot Platform">
+                              آردوینو
+                          </a>
+                        </li>
+
+                        <li class="has-children" style="position:relative">
+                          <a href="https://sproboticworks.com/shop/products/Roboticscompetitionparts">
+                              رزبری پای
+                          </a>
+                        </li>
+                      </ul>
+                  </div>
+              </div>
+
+
+              <div class="col-md-9">                   
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/Arduino-Line-Follower-Robot-.jpg" class="bd-placeholder-img d-block w-100" height="400px">
+                      <div class="container">
+                        <div class="carousel-caption ">
+                          <h1 class="p-2" style="background-color: rgb(0, 0, 0);">ربات های مسیریاب</h1>
+                          <p></p>
+                          <p><a class="btn btn-lg btn-primary" href="#" role="button">اطلاع از مسابقات و آموزش ها</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/nypd-drone-600x366.jpg" class="bd-placeholder-img d-block w-100" alt="drone" height="400px"
+                     > 
+                      <div class="container">
+                        <div class="carousel-caption">
+                          <h1 class="p-2" style="background-color: rgb(0, 0, 0);"> کوادکوپر و درون ها</h1>
+                          <p class="p-2" style="background-color: rgb(0, 0, 0);"> برای اطلاع از آموزش ها و مسابقات به لینک زیر مراجعه کنید </p>
+                          <p><a class="btn btn-lg btn-primary" href="#" role="button">اطلاعات بیشتر </a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/soccer.jpg" class="bd-placeholder-img d-block w-100"  height="400px"> 
+                      <div class="container">
+                        <div class="carousel-caption">
+                          <h1 class="p-2" style="background-color: rgb(0, 0, 0);"> ربات های فوتبالیست</h1>
+                          <p> </p>
+                          <p><a class="btn btn-lg btn-primary" href="#" role="button">اطلاعات بیشتر</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">السابق</span>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">التالى</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+              
+        </div>
+
+        <div class="col-md-12 col-xl-10 m-auto">
+          <div class="row">
+            <div class="col-md-3">
+            </div>
+
+            <div class="col-md-9 col-xl-9 m-auto">
+              <ul class="tab-heading my-4">
+                  <li class="active">
+                      <a>
+                          محصولات دارای تخفیف
+                      </a>
+                  </li>
+              </ul>
+
+                <div class="position-relative bg img-fluid" style="background-image: url('img/90.jpg'); background-repeat: no-repeat; 
+                  background-attachment: fixed;
+                  background-size: cover;
+                  height: 100px;">
+                  <h3 class="position-absolute top-50 start-50  translate-middle discount text-light text-center">
+                    محصولات دارای تخفیف
+                  </h3>
+                </div>
+
+                <div class="row mt-5 text-center">
+
+                  <div class="col-md-4 p-0 ps-3">
+                    <div class="card " style="width: auto;">
+                      <img src="img/raspberry-pi-3-model-b-1.jpg" class="card-img-top" alt="...">
+                      <div class="dropdown-divider bg-light"></div>
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text tod the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">افزودن به سبد خرید </a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-4 p-0 ps-3">
+                    <div class="card " style="width: auto;">
+                      <img src="img/raspberry-pi-3-model-b-1.jpg" class="card-img-top" alt="...">
+                      <div class="dropdown-divider bg-light"></div>
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text tod the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">افزودن به سبد خرید </a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-4 p-0 ps-3">
+                    <div class="card " style="width: auto;">
+                      <img src="img/raspberry-pi-3-model-b-1.jpg" class="card-img-top" alt="...">
+                      <div class="dropdown-divider bg-light"></div>
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text tod the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">افزودن به سبد خرید </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 p-0 ps-3 pt-3">
+                    <div class="card " style="width: auto;">
+                      <img src="img/raspberry-pi-3-model-b-1.jpg" class="card-img-top" alt="...">
+                      <div class="dropdown-divider bg-light"></div>
+                      <div class="card-body">
+                        <h5 class="card-title"> رزبری پای 4 مدل B+</h5>
+                        <p class="mb-0 card-text text-danger">
+                          <del>600,000 تومان</del>
+                        </p>
+                        <p class="card-text">
+                          400,000 تومان
+                        </p>
+                        <a href="#" class="btn btn-primary">افزودن به سبد خرید </a>
+                      </div>
+                    </div>
+                  </div>                
+                </div>               
+            </div>
+          </div>
+
+        
+        </div>
+
+    </div>
+  </section>
+  </main>
+
+  <footer class="container-fluid bg-dark text-white py-5 pb-0">
+      <div class="container py-1">
+        <div class="row">
+            <div class="col-6 col-md">
+              <h5 class="mb-3"> خبرنامه </h5>
+              <p class="text-secondary">برای اطلاع از خبر ها ثبت نام کنید</p>
+              <div class=" input-group  flex-nowrap mb-3" style="direction:ltr; width:80% !important;" >
+                <button class="input-group-text ">
+                    <i class="bi bi-arrow-left-circle-fill"></i> 
+                  </button>
+                <input type="text" style="direction:rtl; width:80% !important;"  class="bg-dark form-control text-light" placeholder="ایمیل شما" >
+              </div>
+            </div>
+    
+            <div class="col-6 col-md">   
+              <ul class="list-unstyled text-small">
+                <li class="mb-3"><h5 class="link-light">فروش</h5></li>
+                <li class="my-2"><a class="link-secondary " href="#">انتقاد</a></li>
+                <li class="my-2"><a class="link-secondary" href="#">Education</a></li>
+                <li class="my-2"><a class="link-secondary" href="#">Government</a></li>
+                <li class="my-2"><a class="link-secondary" href="#">Gaming</a></li>
+              </ul>
+
+              <ul class="list-unstyled text-small">
+                  <li class="mb-3"><h5 class="link-light">ما را دنبال کنید</h5></li>
+                  <li class="">    
+                      <ul class="list-unstyled fs-5 m-0 p-0 list-inline">
+                          <li class="my-2 list-inline-item"><a class="link-light" href="#"><i class="bi bi-youtube"></i></i></a></li> 
+                          <li class="my-2 list-inline-item"><a class="link-light" href="#"><i class="bi bi-instagram"></i></a></li>
+                          <li class="my-2 list-inline-item"><a class="link-light" href="#"><i class="bi bi-telegram"></i></a></li>
+                          <li class="my-2 list-inline-item"><a class="link-light" href="#"><i class="bi bi-linkedin"></i></a></li>                              
+                      </ul>     
+                  </li>
+                </ul>            
+            </div>
+    
+            <div class="col-6 col-md">   
+              <ul class="list-unstyled text-small">
+                <li class="mb-3"><h5 class="link-light">فروش</h5></li>
+                <li class="my-2"><a class=" link-secondary " href="#">انتقاد</a></li>
+                <li class="my-2"><a class="link-secondary" href="#">Education</a></li>
+                <li class="my-2"><a class="link-secondary" href="#">Government</a></li>
+                <li class="my-2"><a class="link-secondary" href="#">Gaming</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-6 col-md">   
+              <ul class="list-unstyled text-small">
+                <li class="mb-3"><h5 class="link-light">فروش</h5></li>
+                <li class="my-2"><a class=" link-secondary " href="#">انتقاد</a></li>
+                <li class="my-2"><a class="link-secondary" href="#">Education</a></li>
+                <li class="my-2"><a class="link-secondary" href="#">Government</a></li>
+                <li class="my-2"><a class="link-secondary" href="#">Gaming</a></li>
+              </ul>
+            </div>
+    
+    
+          </div>
+        <div class="dropdown-divider bg-light"></div>
+
+        <p style="direction: ltr;"> Copyright © SP ROBOTIC WORKS. All Rights Reserved.</p>
+      </div>
+  </footer>
+  
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
+
