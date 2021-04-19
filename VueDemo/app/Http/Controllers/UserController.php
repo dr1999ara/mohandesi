@@ -42,21 +42,25 @@ class UserController extends Controller
     public function store(Request $request)
     {
       $request->validate([
-          'name'           => 'required|string|max:255',
-          'email'          => 'required|string|unique:users,email|email',
-          'password'       => 'required|string|min:8|confirmed',
-          'mobile'         => 'required|integer' ,
-          'address'         => 'required|string' ,
-          'codeposti'      => 'required|string' ,
+          'name'      => 'required|string|max:255',
+          'mobile'    => 'required|string',
+          'codemeli'  => 'required|string',
+          'codeposti' => 'required|string',
+          'email'     => 'required|string|unique:users,email|email',
+          'password'  => 'required|string|min:8|confirmed',
+          'address'   => 'required|string',
+          
           
       ]);
       $user = User::create([
         'name'      => $request->input('name'),
+        'mobile'    => $request->input('mobile'),
+        'codemeli'  => $request->input('codemeli'),
+        'codeposti' => $request->input('codeposti'),
         'email'     => $request->input('email'),
         'password'  => Hash::make($request->input('password')),
-        'mobile'    => $request->input('mobile'),
         'adress'    => $request->input('adress'),
-        'codeposti' => $request->input('codeposti'),
+        
       ]);
       return redirect()->route('usersList')->withErrors(new MessageBag(['messages' => 'کاربر با موفقیت ثبت شد']));
 
@@ -106,7 +110,7 @@ class UserController extends Controller
       }
       if($request->input('mobile') != null){
         $request->validate([
-          'mobile'           => 'integer',
+          'mobile'           => 'string',
         ]);
         $user->mobile       = $request->input('mobile');
       }

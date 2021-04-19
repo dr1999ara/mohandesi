@@ -109,8 +109,8 @@
                     <div class="rounded-2 login-shadow col-xl-6 col-lg-5 col-md-6 col-sm-12 col-12">
                         <div class="online-login-section p-5 ">
                             
-                            <form autocomplete="off" id="login_form_id" class="form-signin" method="post">
-
+                            <form autocomplete="off" id="login_form_id" class="form-signin" mection="{{ route('register') }thod="post" a}">
+                                @csrf
                                 <div class="row">
                                     <div class="mb-3 form-group col-md-6">
                                       <input type="text" name="user_name" class="form-control" placeholder=" نام و نام خانوادگی" required="">
@@ -123,7 +123,7 @@
 
                                <div class="row">
                                 <div class="mb-3 form-group col-md-6">
-                                  <input type="text" name="code_m" pattern="[0-9]{10}" class="form-control" placeholder="کد ملی " required="">
+                                  <input type="text" name="code_m"  class="form-control" placeholder="کد ملی " required="">
                               </div>
                               <div class="mb-3 form-group col-md-6">
                                 <input type="text" name="code_p" class="form-control" placeholder="کد پستی  " required="">

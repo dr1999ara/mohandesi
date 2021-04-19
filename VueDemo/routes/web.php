@@ -18,6 +18,7 @@ Route::get('/', function () {
         return ('welcome');
     });
 
+// Auth::routes();
 
 Route::get('/login', function () {
     return view('login');
@@ -31,7 +32,9 @@ Route::get('/reg', function () {
     return view('reg');
 });
     
-    
+Route::post('login', 'App\Http\Controllers\Auth\LoginController@login')->name('login'); 
+Route::post('register', 'App\Http\Controllers\Auth\RegisterController@register')->name('register');
+
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -42,7 +45,6 @@ Route::get('/reg', function () {
 //     return view('vue');
 // });
 
-// Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

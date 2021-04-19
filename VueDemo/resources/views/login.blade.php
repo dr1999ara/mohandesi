@@ -110,11 +110,10 @@
                         <div class="online-login-section  p-4 pb-5">
                             <h3 class="mb-3 text-light text-center fw-bold text-dark">ورود
                                  </h3>
-                            <form autocomplete="off" id="login_form_id" class="form-signin" method="post">
-                                <input class="" type="hidden" name="_token" >
-
+                            <form autocomplete="off" id="login_form_id" class="form-signin" method="post" action="{{ route('login') }}">
+                              @csrf
                                 <div class="mb-3 rounded-0  shadow-lg form-group">
-                                    <input type="text" name="user_name" class="form-control" placeholder="ایمیل" required="">
+                                    <input type="email" name="email" class="form-control" placeholder="ایمیل" required="" autocomplete>
                                 </div>
 
                                 <div class="mb-3 form-group">
