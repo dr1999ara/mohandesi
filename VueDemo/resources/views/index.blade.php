@@ -17,7 +17,8 @@
 </head>
 
 <body>
-  <header>
+
+<header>
     <!-- navbars -->
     <section id="ext_menu-3">
       <nav>
@@ -109,7 +110,7 @@
                 </div>
           </div>
       </nav>
-  </section>
+    </section>
   <!-- navbars -->
 
   <!-- search -->
@@ -173,7 +174,7 @@
   </section>
   <!-- advertising -->
 
-  </header>
+</header>
 
 <main>
     <!-- dropdown category / carousel -->
